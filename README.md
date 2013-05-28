@@ -1,4 +1,4 @@
-spring-mvc-form
-========================
+Spring MVC Validation
+=====================
 
-Sample Spring MVC Application with form submission. This is a companion to this tutorial: http://codetutr.com/2013/04/06/spring-mvc-form-submission/. 
+Spring MVC validation example using JSR-303 annotations and custom validation annotations
