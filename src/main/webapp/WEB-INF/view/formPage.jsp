@@ -25,7 +25,7 @@
 		<h2>Subscribe to The Newsletter!</h2>
 		<c:if test="${not empty message}"><div class="message green">${message}</div></c:if>
 		
-		<form:form action="/form" modelAttribute="subscriber">
+		<form:form action="/" modelAttribute="subscriber">
 			<label for="nameInput">Name: </label>
 			<form:input path="name" id="nameInput" />
 			<form:errors path="name" cssClass="error" />

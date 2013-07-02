@@ -20,7 +20,7 @@ public class FormController {
 		return "formPage";
 	}
 	
-	@RequestMapping(value="form", method=RequestMethod.POST)
+	@RequestMapping(value="/", method=RequestMethod.POST)
 	public String submitForm(@Valid Subscriber subscriber, BindingResult result, Model m) {
 		if(result.hasErrors()) {
 			return "formPage";
